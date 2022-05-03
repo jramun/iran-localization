@@ -8,6 +8,7 @@ authors = ["Mojtaba (Ramun) Sharif <jramun7@gmail.com>"]
 python = "^3.10"
 SQLAlchemy = "^1.4.36"
 pandas = "^1.4.2"
+openpyxl = "^3.0.9"
 
 [tool.poetry.dev-dependencies]
 
