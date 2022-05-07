@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  db:
+    image: postgres
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: localization
+      POSTGRES_DB: localization
+      POSTGRES_PASSWORD: localization94622
+    volumes:
+      - data:/var/lib/postgresql/data
+
+volumes:
+  data:
