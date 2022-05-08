@@ -8,7 +8,7 @@ class Repository:
     def addProvince(self, province) -> Province:
         object = self.session.query(Province).filter_by(local_id=province.local_id).first()
         if object is None:
-            self.session.ad(province)
+            self.session.add(province)
             return province
         else:
             return object
