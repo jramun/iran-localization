@@ -33,23 +33,18 @@ def handler():
     for item in dic:
         counter += 1
         if is_little_village(item) is True:
-            print(counter, 'Little village ', item)
             addLittleVillage(item)
             continue
         if is_village(item) is True:
-            print(counter, 'Village ', item)
             addVillage(item)
             continue
         if is_area(item) is True:
-            print(counter, 'Area ', item)
             addArea(item)
             continue
         if is_county(item) is True:
-            print(counter, 'County ', item)
             addCounty(item)
             continue
         if is_province(item) is True:
-            print(counter, 'Province ', item)
             addProvince(item)
             continue
     return dic
