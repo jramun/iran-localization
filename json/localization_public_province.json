@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "name": "مرکزي",
+    "key": "0",
+    "local_id": "0",
+    "code_rec": "1"
+  },
+  {
+    "id": 2,
+    "name": "گيلان",
+    "key": "1",
+    "local_id": "1",
+    "code_rec": "1"
+  },
+  {
+    "id": 3,
+    "name": "مازندران",
+    "key": "2",
+    "local_id": "2",
+    "code_rec": "1"
+  },
+  {
+    "id": 4,
+    "name": "آذربايجان شرقي",
+    "key": "3",
+    "local_id": "3",
+    "code_rec": "1"
+  },
+  {
+    "id": 5,
+    "name": "آذربايجان غربي",
+    "key": "4",
+    "local_id": "4",
+    "code_rec": "1"
+  },
+  {
+    "id": 6,
+    "name": "کرمانشاه",
+    "key": "5",
+    "local_id": "5",
+    "code_rec": "1"
+  },
+  {
+    "id": 7,
+    "name": "خوزستان",
+    "key": "6",
+    "local_id": "6",
+    "code_rec": "1"
+  },
+  {
+    "id": 8,
+    "name": "فارس",
+    "key": "7",
+    "local_id": "7",
+    "code_rec": "1"
+  },
+  {
+    "id": 9,
+    "name": "كرمان",
+    "key": "8",
+    "local_id": "8",
+    "code_rec": "1"
+  },
+  {
+    "id": 10,
+    "name": "خراسان رضوئ",
+    "key": "9",
+    "local_id": "9",
+    "code_rec": "1"
+  },
+  {
+    "id": 11,
+    "name": "اصفهان",
+    "key": "10",
+    "local_id": "10",
+    "code_rec": "1"
+  },
+  {
+    "id": 12,
+    "name": "سيستان وبلوچستان",
+    "key": "11",
+    "local_id": "11",
+    "code_rec": "1"
+  },
+  {
+    "id": 13,
+    "name": "كردستان",
+    "key": "12",
+    "local_id": "12",
+    "code_rec": "1"
+  },
+  {
+    "id": 14,
+    "name": "همدان",
+    "key": "13",
+    "local_id": "13",
+    "code_rec": "1"
+  },
+  {
+    "id": 15,
+    "name": "چهارمحال وبختياري",
+    "key": "14",
+    "local_id": "14",
+    "code_rec": "1"
+  },
+  {
+    "id": 16,
+    "name": "لرستان",
+    "key": "15",
+    "local_id": "15",
+    "code_rec": "1"
+  },
+  {
+    "id": 17,
+    "name": "ايلام",
+    "key": "16",
+    "local_id": "16",
+    "code_rec": "1"
+  },
+  {
+    "id": 18,
+    "name": "كهگيلويه وبويراحمد",
+    "key": "17",
+    "local_id": "17",
+    "code_rec": "1"
+  },
+  {
+    "id": 19,
+    "name": "بوشهر",
+    "key": "18",
+    "local_id": "18",
+    "code_rec": "1"
+  },
+  {
+    "id": 20,
+    "name": "زنجان",
+    "key": "19",
+    "local_id": "19",
+    "code_rec": "1"
+  },
+  {
+    "id": 21,
+    "name": "سمنان",
+    "key": "20",
+    "local_id": "20",
+    "code_rec": "1"
+  },
+  {
+    "id": 22,
+    "name": "يزد",
+    "key": "21",
+    "local_id": "21",
+    "code_rec": "1"
+  },
+  {
+    "id": 23,
+    "name": "هرمزگان",
+    "key": "22",
+    "local_id": "22",
+    "code_rec": "1"
+  },
+  {
+    "id": 24,
+    "name": "تهران",
+    "key": "23",
+    "local_id": "23",
+    "code_rec": "1"
+  },
+  {
+    "id": 25,
+    "name": "اردبيل",
+    "key": "24",
+    "local_id": "24",
+    "code_rec": "1"
+  },
+  {
+    "id": 26,
+    "name": "قم",
+    "key": "25",
+    "local_id": "25",
+    "code_rec": "1"
+  },
+  {
+    "id": 27,
+    "name": "قزوين",
+    "key": "26",
+    "local_id": "26",
+    "code_rec": "1"
+  },
+  {
+    "id": 28,
+    "name": "گلستان",
+    "key": "27",
+    "local_id": "27",
+    "code_rec": "1"
+  },
+  {
+    "id": 29,
+    "name": "خراسان شمالي",
+    "key": "28",
+    "local_id": "28",
+    "code_rec": "1"
+  },
+  {
+    "id": 30,
+    "name": "خراسان جنوبي",
+    "key": "29",
+    "local_id": "29",
+    "code_rec": "1"
+  },
+  {
+    "id": 31,
+    "name": "البرز",
+    "key": "30",
+    "local_id": "30",
+    "code_rec": "1"
+  }
+]

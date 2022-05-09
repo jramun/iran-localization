@@ -1,37 +1,6 @@
 from sqlalchemy.orm import Session
 
-from model import Province, County, Area, Village, LittleVillage
-
-
-def replaceProvince(source, target):
-    source.name = target.name
-    source.code_rec = target.code_rec
-    return source
-
-
-def replaceCounty(source, target):
-    source.name = target.name
-    source.code_rec = target.code_rec
-    return source
-
-
-def replaceArea(source, target):
-    source.name = target.name
-    source.code_rec = target.code_rec
-    return source
-
-
-def replaceVillage(source, target):
-    source.name = target.name
-    source.code_rec = target.code_rec
-    return source
-
-
-def replaceLittleVillage(source, target):
-    source.name = target.name
-    source.code_rec = target.code_rec
-    source.diag = target.diag
-    return source
+from model import Province, County, Region, Village, LittleVillage
 
 
 class Repository:
@@ -47,14 +16,15 @@ class Repository:
         self.session.flush()
         self.session.close()
 
-    def findProvince(self, localId) -> Province:
+    def findProvince(self, key) -> Province:
         self.open()
-        object = self.session.query(Province).filter_by(local_id=localId).first()
+        object = self.session.query(Province).filter_by(key=key).first()
+        self.commit()
         return object
 
     def addProvince(self, province) -> Province:
         self.open()
-        object = self.session.query(Province).filter_by(local_id=province.local_id).first()
+        object = self.session.query(Province).filter_by(key=province.key).first()
         if object is None:
             self.session.add(province)
             result = province
@@ -63,25 +33,15 @@ class Repository:
         self.commit()
         return result
 
-    def updateProvince(self, province) -> Province:
+    def findCounty(self, key) -> County:
         self.open()
-        object = self.session.query(Province).filter_by(local_id=province.local_id).first()
-        if object is not None:
-            result = self.session.add(replaceProvince(object, province))
-        else:
-            result = self.session.add(province)
-        self.commit()
-        return result
-
-    def findCounty(self, localId) -> County:
-        self.open()
-        object = self.session.query(County).filter_by(local_id=localId).first()
+        object = self.session.query(County).filter_by(key=key).first()
         self.commit()
         return object
 
     def addCounty(self, county) -> County:
         self.open()
-        object = self.session.query(County).filter_by(local_id=county.local_id).first()
+        object = self.session.query(County).filter_by(key=county.key).first()
         if object is None:
             self.session.add(county)
             result = county
@@ -90,46 +50,26 @@ class Repository:
         self.commit()
         return result
 
-    def updateCounty(self, county) -> County:
+    def findRegion(self, key) -> Region:
         self.open()
-        object = self.session.query(County).filter_by(local_id=county.local_id).first()
-        if object is not None:
-            result = self.session.add(replaceCounty(object, county))
-        else:
-            result = self.session.add(county)
-        self.commit()
-        return result
-
-    def findArea(self, localId) -> Area:
-        self.open()
-        object = self.session.query(Area).filter_by(local_id=localId).first()
+        object = self.session.query(Region).filter_by(key=key).first()
         self.commit()
         return object
 
-    def addArea(self, area) -> Area:
+    def addRegion(self, region) -> Region:
         self.open()
-        object = self.session.query(Area).filter_by(local_id=area.local_id).first()
+        object = self.session.query(Region).filter_by(key=region.key).first()
         if object is None:
-            self.session.add(area)
-            result = area
+            self.session.add(region)
+            result = region
         else:
             result = object
         self.commit()
         return result
 
-    def updateArea(self, area) -> Area:
-        self.open()
-        object = self.session.query(Area).filter_by(local_id=area.local_id).first()
-        if object is not None:
-            result = self.session.add(replaceArea(object, area))
-        else:
-            result = self.session.add(area)
-        self.commit()
-        return result
-
     def addVillage(self, village) -> Village:
         self.open()
-        object = self.session.query(Village).filter_by(local_id=village.local_id).first()
+        object = self.session.query(Village).filter_by(key=village.key).first()
         if object is None:
             self.session.add(village)
             result = village
@@ -138,25 +78,15 @@ class Repository:
         self.commit()
         return result
 
-    def findVillage(self, localId) -> Village:
+    def findVillage(self, key) -> Village:
         self.open()
-        object = self.session.query(Village).filter_by(local_id=localId).first()
+        object = self.session.query(Village).filter_by(key=key).first()
         self.commit()
         return object
 
-    def updateVillage(self, village) -> Village:
-        self.open()
-        object = self.session.query(Village).filter_by(local_id=village.local_id).first()
-        if object is not None:
-            result = self.session.add(replaceVillage(object, village))
-        else:
-            result = self.session.add(village)
-        self.commit()
-        return result
-
     def addLittleVillage(self, littleVillage) -> LittleVillage:
         self.open()
-        object = self.session.query(LittleVillage).filter_by(local_id=littleVillage.local_id).first()
+        object = self.session.query(LittleVillage).filter_by(key=littleVillage.key).first()
         if object is None:
             self.session.add(littleVillage)
             result = littleVillage
@@ -165,18 +95,8 @@ class Repository:
         self.commit()
         return result
 
-    def updateLittleVillage(self, littleVillage) -> LittleVillage:
+    def findLittleVillage(self, key) -> LittleVillage:
         self.open()
-        object = self.session.query(LittleVillage).filter_by(local_id=littleVillage.local_id).first()
-        if object is not None:
-            result = self.session.add(replaceLittleVillage(object, littleVillage))
-        else:
-            result = self.session.add(littleVillage)
-        self.commit()
-        return result
-
-    def findLittleVillage(self, localId) -> LittleVillage:
-        self.open()
-        object = self.session.query(LittleVillage).filter_by(local_id=localId).first()
+        object = self.session.query(LittleVillage).filter_by(key=key).first()
         self.commit()
         return object

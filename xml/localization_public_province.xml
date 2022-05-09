@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<row>
+  <id>1</id>
+  <name>مرکزي</name>
+  <key>0</key>
+  <local_id>0</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>2</id>
+  <name>گيلان</name>
+  <key>1</key>
+  <local_id>1</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>3</id>
+  <name>مازندران</name>
+  <key>2</key>
+  <local_id>2</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>4</id>
+  <name>آذربايجان شرقي</name>
+  <key>3</key>
+  <local_id>3</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>5</id>
+  <name>آذربايجان غربي</name>
+  <key>4</key>
+  <local_id>4</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>6</id>
+  <name>کرمانشاه</name>
+  <key>5</key>
+  <local_id>5</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>7</id>
+  <name>خوزستان</name>
+  <key>6</key>
+  <local_id>6</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>8</id>
+  <name>فارس</name>
+  <key>7</key>
+  <local_id>7</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>9</id>
+  <name>كرمان</name>
+  <key>8</key>
+  <local_id>8</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>10</id>
+  <name>خراسان رضوئ</name>
+  <key>9</key>
+  <local_id>9</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>11</id>
+  <name>اصفهان</name>
+  <key>10</key>
+  <local_id>10</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>12</id>
+  <name>سيستان وبلوچستان</name>
+  <key>11</key>
+  <local_id>11</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>13</id>
+  <name>كردستان</name>
+  <key>12</key>
+  <local_id>12</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>14</id>
+  <name>همدان</name>
+  <key>13</key>
+  <local_id>13</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>15</id>
+  <name>چهارمحال وبختياري</name>
+  <key>14</key>
+  <local_id>14</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>16</id>
+  <name>لرستان</name>
+  <key>15</key>
+  <local_id>15</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>17</id>
+  <name>ايلام</name>
+  <key>16</key>
+  <local_id>16</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>18</id>
+  <name>كهگيلويه وبويراحمد</name>
+  <key>17</key>
+  <local_id>17</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>19</id>
+  <name>بوشهر</name>
+  <key>18</key>
+  <local_id>18</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>20</id>
+  <name>زنجان</name>
+  <key>19</key>
+  <local_id>19</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>21</id>
+  <name>سمنان</name>
+  <key>20</key>
+  <local_id>20</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>22</id>
+  <name>يزد</name>
+  <key>21</key>
+  <local_id>21</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>23</id>
+  <name>هرمزگان</name>
+  <key>22</key>
+  <local_id>22</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>24</id>
+  <name>تهران</name>
+  <key>23</key>
+  <local_id>23</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>25</id>
+  <name>اردبيل</name>
+  <key>24</key>
+  <local_id>24</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>26</id>
+  <name>قم</name>
+  <key>25</key>
+  <local_id>25</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>27</id>
+  <name>قزوين</name>
+  <key>26</key>
+  <local_id>26</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>28</id>
+  <name>گلستان</name>
+  <key>27</key>
+  <local_id>27</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>29</id>
+  <name>خراسان شمالي</name>
+  <key>28</key>
+  <local_id>28</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>30</id>
+  <name>خراسان جنوبي</name>
+  <key>29</key>
+  <local_id>29</local_id>
+  <code_rec>1</code_rec>
+</row>
+<row>
+  <id>31</id>
+  <name>البرز</name>
+  <key>30</key>
+  <local_id>30</local_id>
+  <code_rec>1</code_rec>
+</row>
+</data>
